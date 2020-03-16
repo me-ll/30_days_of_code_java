@@ -1,5 +1,13 @@
 import java.util.*;
 
+/*
+ * 抽象クラスメモ
+ * メソッドのオーバーライドを強制する
+ * 抽象クラスとextends句で継承する必要がある
+ * 直接インスタンス化できない
+ * サブクラスでコンストラクタを記述しないといけない
+*/
+
 abstract class Book {
     String title;
     String author;
